@@ -1,0 +1,12 @@
+2024-03-11 16:50:51 : Let us start the training of Neural Networks.
+2024-03-11 16:50:51 : Dataset successfully loaded.
+2024-03-11 16:50:51 : Starting the analysis of the dataset. Based on this analysis select the preprocessing terms and features.
+2024-03-11 16:50:51 : Analysis of the dataset has been successfully completed.
+2024-03-11 16:50:51 : Starting the data preprocessing.
+2024-03-11 16:50:51 : Data Preprocessing has successfully been completed.
+2024-03-11 16:50:51 : Starting train test split.
+2024-03-11 16:50:51 : Train test split has successfully been completed.
+2024-03-11 16:50:51 : The Training of the model is begining.
+2024-03-11 16:50:54 : The training has been completed successfully.
+2024-03-11 16:50:54 : The Evaluation of the model is begining.
+2024-03-11 16:50:54 : The evaluation has been completed successfully.
