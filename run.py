@@ -175,6 +175,9 @@ class NNPipeline():
 
     def train(self):
         path = self.args.train_logs_folder
+        if not os.path.exists(path):
+            os.mkdir(path)
+            
         files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
         file = open(os.path.join(path, 'train_model_logs_file_'+ str(len(files)) + '.txt'), 'a')
 
