@@ -1,4 +1,5 @@
 import datetime
+import matplotlib.pyplot as plt
 
 def log_message(file, message):
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -27,5 +28,23 @@ def write_model_logs(args, file):
     log_message(file, f"learning rate : {args.learning_rate}")
     log_message(file, f"activation function : {args.activation_function}")
     log_message(file, f"loss function : {args.loss_function}")
+    log_message(file, f"Optimizer : {args.optimizer}")
 
     return
+
+def plot(train_error_per_epoch, train_accuracy_per_epoch):
+    # Example data
+    epochs = range(1, len(train_error_per_epoch) + 1)
+
+    # Plot training error per epoch
+    plt.figure(figsize=(10, 5))
+    plt.plot(epochs, train_error_per_epoch, label='Training Error')
+    plt.plot(epochs, train_accuracy_per_epoch, label='Training Accuracy')
+    plt.title('Training Error per Epoch')
+    plt.xlabel('Epoch')
+    plt.ylabel('Error')
+    plt.legend()
+    plt.savefig('logs/train_logs/Plot-train.png')
+    plt.show()
+
+

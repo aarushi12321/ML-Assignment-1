@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from tabulate import tabulate
 import numpy as np
+from sklearn.metrics import confusion_matrix
 
 from utils import *
 from parse_args import make_args
@@ -157,9 +158,6 @@ class NNPipeline():
         log_message(file, "Preprocessing has been completed. Your data is ready to be split into training and evaluation data.")
 
         return
-    
-    def data_visualization():
-        pass
 
     def train_test_split(self):
         if os.path.exists(self.args.train_test_file_path):
@@ -181,13 +179,12 @@ class NNPipeline():
         files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
         file = open(os.path.join(path, 'train_model_logs_file_'+ str(len(files)) + '.txt'), 'a')
 
-
         self.model = NNModel(self.args)
         self.model.add(NNLayer(self.args, self.X_train.shape[1], 8))
         self.model.add(ActivationLayer(self.args))
         self.model.add(NNLayer(self.args, 8, 4))
         self.model.add(ActivationLayer(self.args))
-        self.model.add(NNLayer(self.args,4,1))
+        self.model.add(NNLayer(self.args,4, 1))
 
         self.train_error_per_epoch, self.train_accuracy_per_epoch = self.model.fit(self.X_train.to_numpy(), self.y_train.to_numpy(), args.verbose)
         # logging args
@@ -197,6 +194,8 @@ class NNPipeline():
         log_message(file,"The accuracy and error with respect to the epochs")
         for i in range(len(self.train_error_per_epoch)):
             file.write(f"Epoch : {i+1} \t Error : {np.round(self.train_error_per_epoch[i], 6)} \t Accuracy : {np.round(self.train_accuracy_per_epoch[i], 6)}\n")
+        if self.args.make_plot == 1:
+            plot(self.train_error_per_epoch, self.train_accuracy_per_epoch)
 
     def evaluate(self):
         path = self.args.train_logs_folder
@@ -207,14 +206,19 @@ class NNPipeline():
         test_accuracy = accuracy(y_pred, self.y_test.to_numpy())
         file.write("\n")
         print(f"Test accuracy is {test_accuracy}\n")
-        log_message(file, "The predicted values vs actual values are :")
-        for i in range(len(y_pred)):
-            file.write(f"Predicted : {y_pred[i]} \t Actual : {self.y_test.iloc[i]}\n")
+        log_message(file, "The confusion matrx is :")
+        # ADD : confusion matrix
+        cm = confusion_matrix(self.y_test, y_pred)
+        
+        cm_interpretation = np.array([
+            [f"TN: {cm[0, 0]}", f"FP: {cm[0, 1]}"],
+            [f"FN: {cm[1, 0]}", f"TP: {cm[1, 1]}"]
+        ], dtype=object)
+        cm_interpreted_string = np.array2string(cm_interpretation, formatter={'str_kind': lambda x: x})
+        formatted_cm_string = f"Confusion Matrix:\n{cm_interpreted_string}\n"
+        file.write(formatted_cm_string)
         file.write("\n")
         log_message(file, "The test accuracy is {}".format(test_accuracy))
-
-    def predict():
-        pass
 
 if __name__ == "__main__":
     args = make_args()

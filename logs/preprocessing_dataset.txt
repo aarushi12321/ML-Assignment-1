@@ -1,8 +1,8 @@
-2024-03-11 16:50:51 : Columns that have been deleted : ['PassengerId', 'Name', 'Ticket', 'Cabin']
-2024-03-11 16:50:51 : After this step, the number of columns in the data are : 8
-2024-03-11 16:50:51 : After this step, the columns in the data are : ['Survived', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
-2024-03-11 16:50:51 : The division to calculate the age
-2024-03-11 16:50:51 : 
+2024-03-15 03:24:12 : Columns that have been deleted : ['PassengerId', 'Name', 'Ticket', 'Cabin']
+2024-03-15 03:24:12 : After this step, the number of columns in the data are : 8
+2024-03-15 03:24:12 : After this step, the columns in the data are : ['Survived', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
+2024-03-15 03:24:12 : The division to calculate the age
+2024-03-15 03:24:12 : 
 ┌────┬──────────┬────────┬────────────┐
 │    │   Pclass │ Sex    │   Mean Age │
 ├────┼──────────┼────────┼────────────┤
@@ -18,13 +18,13 @@
 ├────┼──────────┼────────┼────────────┤
 │  5 │        3 │ male   │    26.5076 │
 └────┴──────────┴────────┴────────────┘
-2024-03-11 16:50:51 : Age null values filled.
-2024-03-11 16:50:51 : Embarked null values filled.
-2024-03-11 16:50:51 : All columns have been checked and cleared for NULL values.
-2024-03-11 16:50:51 : 
+2024-03-15 03:24:12 : Age null values filled.
+2024-03-15 03:24:12 : Embarked null values filled.
+2024-03-15 03:24:12 : All columns have been checked and cleared for NULL values.
+2024-03-15 03:24:12 : 
 The following data shows five samples of data : 
 
-2024-03-11 16:50:51 : 
+2024-03-15 03:24:12 : 
 ┌────┬────────────┬──────────┬────────┬───────┬─────────┬─────────┬─────────┬────────────┐
 │    │   Survived │   Pclass │ Sex    │   Age │   SibSp │   Parch │    Fare │ Embarked   │
 ├────┼────────────┼──────────┼────────┼───────┼─────────┼─────────┼─────────┼────────────┤
@@ -38,9 +38,9 @@ The following data shows five samples of data :
 ├────┼────────────┼──────────┼────────┼───────┼─────────┼─────────┼─────────┼────────────┤
 │  4 │          0 │        3 │ male   │    35 │       0 │       0 │  8.05   │ S          │
 └────┴────────────┴──────────┴────────┴───────┴─────────┴─────────┴─────────┴────────────┘
-2024-03-11 16:50:51 : One hot encoding has been completed.
-2024-03-11 16:50:51 : The following data shows five samples of data after the step: 
-2024-03-11 16:50:51 : 
+2024-03-15 03:24:12 : One hot encoding has been completed.
+2024-03-15 03:24:12 : The following data shows five samples of data after the step: 
+2024-03-15 03:24:12 : 
 ┌────┬────────────┬──────────┬───────┬─────────┬─────────┬─────────┬────────┬──────────────┬──────────────┐
 │    │   Survived │   Pclass │   Age │   SibSp │   Parch │    Fare │   male │   embarked_Q │   embarked_S │
 ├────┼────────────┼──────────┼───────┼─────────┼─────────┼─────────┼────────┼──────────────┼──────────────┤
@@ -54,8 +54,8 @@ The following data shows five samples of data :
 ├────┼────────────┼──────────┼───────┼─────────┼─────────┼─────────┼────────┼──────────────┼──────────────┤
 │  4 │          0 │        3 │    35 │       0 │       0 │  8.05   │      1 │            0 │            1 │
 └────┴────────────┴──────────┴───────┴─────────┴─────────┴─────────┴────────┴──────────────┴──────────────┘
-2024-03-11 16:50:51 : The following data shows five samples of X: 
-2024-03-11 16:50:51 : 
+2024-03-15 03:24:12 : The following data shows five samples of X: 
+2024-03-15 03:24:12 : 
 ┌────┬──────────┬───────┬─────────┬─────────┬─────────┬────────┬──────────────┬──────────────┐
 │    │   Pclass │   Age │   SibSp │   Parch │    Fare │   male │   embarked_Q │   embarked_S │
 ├────┼──────────┼───────┼─────────┼─────────┼─────────┼────────┼──────────────┼──────────────┤
@@ -69,8 +69,8 @@ The following data shows five samples of data :
 ├────┼──────────┼───────┼─────────┼─────────┼─────────┼────────┼──────────────┼──────────────┤
 │  4 │        3 │    35 │       0 │       0 │  8.05   │      1 │            0 │            1 │
 └────┴──────────┴───────┴─────────┴─────────┴─────────┴────────┴──────────────┴──────────────┘
-2024-03-11 16:50:51 : The following data shows five samples of Y: 
-2024-03-11 16:50:51 : 
+2024-03-15 03:24:12 : The following data shows five samples of Y: 
+2024-03-15 03:24:12 : 
 ┌────┬────────────┐
 │    │   Survived │
 ├────┼────────────┤
@@ -84,8 +84,8 @@ The following data shows five samples of data :
 ├────┼────────────┤
 │  4 │          0 │
 └────┴────────────┘
-2024-03-11 16:50:51 : The following data shows five samples of X after scaling: 
-2024-03-11 16:50:51 : 
+2024-03-15 03:24:12 : The following data shows five samples of X after scaling: 
+2024-03-15 03:24:12 : 
 ┌────┬──────────┬──────────┬─────────┬─────────┬───────────┬────────┬──────────────┬──────────────┐
 │    │   Pclass │      Age │   SibSp │   Parch │      Fare │   male │   embarked_Q │   embarked_S │
 ├────┼──────────┼──────────┼─────────┼─────────┼───────────┼────────┼──────────────┼──────────────┤
@@ -99,4 +99,4 @@ The following data shows five samples of data :
 ├────┼──────────┼──────────┼─────────┼─────────┼───────────┼────────┼──────────────┼──────────────┤
 │  4 │        1 │ 0.434531 │   0     │       0 │ 0.0157126 │      1 │            0 │            1 │
 └────┴──────────┴──────────┴─────────┴─────────┴───────────┴────────┴──────────────┴──────────────┘
-2024-03-11 16:50:51 : Preprocessing has been completed. Your data is ready to be split into training and evaluation data.
+2024-03-15 03:24:12 : Preprocessing has been completed. Your data is ready to be split into training and evaluation data.
