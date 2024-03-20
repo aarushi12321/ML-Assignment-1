@@ -1,0 +1,117 @@
+2024-03-19 20:28:05 : scalar : MinMaxScalar
+2024-03-19 20:28:05 : train test split : 0.25
+2024-03-19 20:28:05 : random state : 15
+2024-03-19 20:28:05 : epochs : 100
+2024-03-19 20:28:05 : learning rate : 0.01
+2024-03-19 20:28:05 : activation function : sigmoid
+2024-03-19 20:28:05 : loss function : mean_squared_error
+2024-03-19 20:28:05 : Optimizer : None
+
+2024-03-19 20:28:05 : The accuracy and error with respect to the epochs
+Epoch : 1 	 Error : 0.267909 	 Accuracy : 0.631737
+Epoch : 2 	 Error : 0.239931 	 Accuracy : 0.631737
+Epoch : 3 	 Error : 0.239845 	 Accuracy : 0.631737
+Epoch : 4 	 Error : 0.239766 	 Accuracy : 0.631737
+Epoch : 5 	 Error : 0.239691 	 Accuracy : 0.631737
+Epoch : 6 	 Error : 0.239622 	 Accuracy : 0.631737
+Epoch : 7 	 Error : 0.239556 	 Accuracy : 0.631737
+Epoch : 8 	 Error : 0.239495 	 Accuracy : 0.631737
+Epoch : 9 	 Error : 0.239436 	 Accuracy : 0.631737
+Epoch : 10 	 Error : 0.239381 	 Accuracy : 0.631737
+Epoch : 11 	 Error : 0.239328 	 Accuracy : 0.631737
+Epoch : 12 	 Error : 0.239277 	 Accuracy : 0.631737
+Epoch : 13 	 Error : 0.239229 	 Accuracy : 0.631737
+Epoch : 14 	 Error : 0.239182 	 Accuracy : 0.631737
+Epoch : 15 	 Error : 0.239137 	 Accuracy : 0.631737
+Epoch : 16 	 Error : 0.239093 	 Accuracy : 0.631737
+Epoch : 17 	 Error : 0.239051 	 Accuracy : 0.631737
+Epoch : 18 	 Error : 0.239009 	 Accuracy : 0.631737
+Epoch : 19 	 Error : 0.238969 	 Accuracy : 0.631737
+Epoch : 20 	 Error : 0.238929 	 Accuracy : 0.631737
+Epoch : 21 	 Error : 0.23889 	 Accuracy : 0.631737
+Epoch : 22 	 Error : 0.238851 	 Accuracy : 0.631737
+Epoch : 23 	 Error : 0.238813 	 Accuracy : 0.631737
+Epoch : 24 	 Error : 0.238775 	 Accuracy : 0.631737
+Epoch : 25 	 Error : 0.238738 	 Accuracy : 0.631737
+Epoch : 26 	 Error : 0.2387 	 Accuracy : 0.631737
+Epoch : 27 	 Error : 0.238662 	 Accuracy : 0.631737
+Epoch : 28 	 Error : 0.238625 	 Accuracy : 0.631737
+Epoch : 29 	 Error : 0.238587 	 Accuracy : 0.631737
+Epoch : 30 	 Error : 0.238548 	 Accuracy : 0.631737
+Epoch : 31 	 Error : 0.23851 	 Accuracy : 0.631737
+Epoch : 32 	 Error : 0.238471 	 Accuracy : 0.631737
+Epoch : 33 	 Error : 0.238431 	 Accuracy : 0.631737
+Epoch : 34 	 Error : 0.23839 	 Accuracy : 0.631737
+Epoch : 35 	 Error : 0.238349 	 Accuracy : 0.631737
+Epoch : 36 	 Error : 0.238306 	 Accuracy : 0.631737
+Epoch : 37 	 Error : 0.238262 	 Accuracy : 0.631737
+Epoch : 38 	 Error : 0.238217 	 Accuracy : 0.631737
+Epoch : 39 	 Error : 0.238171 	 Accuracy : 0.631737
+Epoch : 40 	 Error : 0.238123 	 Accuracy : 0.631737
+Epoch : 41 	 Error : 0.238074 	 Accuracy : 0.631737
+Epoch : 42 	 Error : 0.238022 	 Accuracy : 0.631737
+Epoch : 43 	 Error : 0.237969 	 Accuracy : 0.631737
+Epoch : 44 	 Error : 0.237913 	 Accuracy : 0.631737
+Epoch : 45 	 Error : 0.237854 	 Accuracy : 0.631737
+Epoch : 46 	 Error : 0.237793 	 Accuracy : 0.631737
+Epoch : 47 	 Error : 0.237729 	 Accuracy : 0.631737
+Epoch : 48 	 Error : 0.237661 	 Accuracy : 0.631737
+Epoch : 49 	 Error : 0.237589 	 Accuracy : 0.631737
+Epoch : 50 	 Error : 0.237513 	 Accuracy : 0.631737
+Epoch : 51 	 Error : 0.237433 	 Accuracy : 0.631737
+Epoch : 52 	 Error : 0.237348 	 Accuracy : 0.631737
+Epoch : 53 	 Error : 0.237257 	 Accuracy : 0.631737
+Epoch : 54 	 Error : 0.237159 	 Accuracy : 0.631737
+Epoch : 55 	 Error : 0.237055 	 Accuracy : 0.631737
+Epoch : 56 	 Error : 0.236943 	 Accuracy : 0.631737
+Epoch : 57 	 Error : 0.236823 	 Accuracy : 0.631737
+Epoch : 58 	 Error : 0.236693 	 Accuracy : 0.631737
+Epoch : 59 	 Error : 0.236553 	 Accuracy : 0.631737
+Epoch : 60 	 Error : 0.2364 	 Accuracy : 0.631737
+Epoch : 61 	 Error : 0.236234 	 Accuracy : 0.631737
+Epoch : 62 	 Error : 0.236053 	 Accuracy : 0.631737
+Epoch : 63 	 Error : 0.235855 	 Accuracy : 0.631737
+Epoch : 64 	 Error : 0.235639 	 Accuracy : 0.631737
+Epoch : 65 	 Error : 0.235401 	 Accuracy : 0.631737
+Epoch : 66 	 Error : 0.235139 	 Accuracy : 0.631737
+Epoch : 67 	 Error : 0.23485 	 Accuracy : 0.631737
+Epoch : 68 	 Error : 0.234531 	 Accuracy : 0.631737
+Epoch : 69 	 Error : 0.234179 	 Accuracy : 0.631737
+Epoch : 70 	 Error : 0.233789 	 Accuracy : 0.631737
+Epoch : 71 	 Error : 0.233358 	 Accuracy : 0.631737
+Epoch : 72 	 Error : 0.23288 	 Accuracy : 0.631737
+Epoch : 73 	 Error : 0.232351 	 Accuracy : 0.631737
+Epoch : 74 	 Error : 0.231765 	 Accuracy : 0.631737
+Epoch : 75 	 Error : 0.231115 	 Accuracy : 0.631737
+Epoch : 76 	 Error : 0.230395 	 Accuracy : 0.631737
+Epoch : 77 	 Error : 0.229593 	 Accuracy : 0.631737
+Epoch : 78 	 Error : 0.228698 	 Accuracy : 0.631737
+Epoch : 79 	 Error : 0.227695 	 Accuracy : 0.631737
+Epoch : 80 	 Error : 0.226562 	 Accuracy : 0.631737
+Epoch : 81 	 Error : 0.225274 	 Accuracy : 0.631737
+Epoch : 82 	 Error : 0.223796 	 Accuracy : 0.640719
+Epoch : 83 	 Error : 0.222087 	 Accuracy : 0.649701
+Epoch : 84 	 Error : 0.220092 	 Accuracy : 0.664671
+Epoch : 85 	 Error : 0.217746 	 Accuracy : 0.679641
+Epoch : 86 	 Error : 0.214967 	 Accuracy : 0.70509
+Epoch : 87 	 Error : 0.211659 	 Accuracy : 0.724551
+Epoch : 88 	 Error : 0.207717 	 Accuracy : 0.766467
+Epoch : 89 	 Error : 0.203033 	 Accuracy : 0.79491
+Epoch : 90 	 Error : 0.197537 	 Accuracy : 0.80988
+Epoch : 91 	 Error : 0.19124 	 Accuracy : 0.80988
+Epoch : 92 	 Error : 0.18432 	 Accuracy : 0.808383
+Epoch : 93 	 Error : 0.177186 	 Accuracy : 0.803892
+Epoch : 94 	 Error : 0.170451 	 Accuracy : 0.802395
+Epoch : 95 	 Error : 0.164752 	 Accuracy : 0.797904
+Epoch : 96 	 Error : 0.160466 	 Accuracy : 0.797904
+Epoch : 97 	 Error : 0.157565 	 Accuracy : 0.796407
+Epoch : 98 	 Error : 0.15573 	 Accuracy : 0.796407
+Epoch : 99 	 Error : 0.154583 	 Accuracy : 0.796407
+Epoch : 100 	 Error : 0.153832 	 Accuracy : 0.796407
+
+2024-03-19 20:28:05 : The confusion matrx is :
+Confusion Matrix:
+[['TN: 107' 'FP: 20']
+ ['FN: 31' 'TP: 65']]
+
+2024-03-19 20:28:05 : The test accuracy is 0.7713004484304933

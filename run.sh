@@ -1,0 +1,22 @@
+#!/bin/bash
+python3 run.py \
+    --dataset_path "data/Titanic-Dataset.csv" \
+    --analysis_file_path "logs/analysis_dataset.txt" \
+    --preprocessing_file_path "logs/preprocessing_dataset.txt" \
+    --train_test_file_path "logs/train_test_split_dataset.txt" \
+    --train_logs_folder "logs/train_logs" \
+    --catagorical_thresh 100 \
+    --scalar "MinMaxScalar" \
+    --train_test_split_ratio 0.25 \
+    --random_seed 15 \
+    --epochs 10 \
+    --learning_rate 0.01 \
+    --activation_function "sigmoid" \
+    --loss_function "mean_squared_error" \
+    --verbose 0 \
+    --optimizer "None" \
+    --momentum_lr 0.01 \
+    --momentum 0.9 \
+    --beta1 0.9 \
+    --beta2 0.999 \
+    --make_plot 0 

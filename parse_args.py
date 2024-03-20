@@ -2,7 +2,7 @@ import argparse
 
 def make_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_path', default= "data/Titanic-Dataset.csv")
+    parser.add_argument('--dataset_path', default= "https://drive.google.com/file/d/1DQ9QZ5f6zL1S_RvFcqzNDg-uGXMPty01/view?usp=sharing")
     parser.add_argument('--analysis_file_path', default="logs/analysis_dataset.txt")
     parser.add_argument('--preprocessing_file_path', default="logs/preprocessing_dataset.txt")
     parser.add_argument('--train_test_file_path', default="logs/train_test_split_dataset.txt")

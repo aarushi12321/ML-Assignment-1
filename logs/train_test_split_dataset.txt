@@ -1,5 +1,5 @@
-2024-03-15 03:24:12 : Train Test split gives the following Dimensions for the data:
-2024-03-15 03:24:12 : X Train Dimensions 	(668, 8)
-2024-03-15 03:24:12 : Y Train Dimensions 	(668,)
-2024-03-15 03:24:12 : X Test Dimensions  	(223, 8)
-2024-03-15 03:24:12 : Y Test Dimensions  	(223,)
+2024-03-19 23:26:17 : Train Test split gives the following Dimensions for the data:
+2024-03-19 23:26:17 : X Train Dimensions 	(668, 8)
+2024-03-19 23:26:17 : Y Train Dimensions 	(668,)
+2024-03-19 23:26:17 : X Test Dimensions  	(223, 8)
+2024-03-19 23:26:17 : Y Test Dimensions  	(223,)

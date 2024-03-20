@@ -24,7 +24,7 @@ for lr in "${learning_rates[@]}"; do
             --learning_rate $lr \
             --activation_function $activation_function \
             --loss_function "mean_squared_error" \
-            --verbose 1 \
+            --verbose 0 \
             --optimizer $optimizer \
             --momentum_lr 0.01 \
             --momentum 0.9 \

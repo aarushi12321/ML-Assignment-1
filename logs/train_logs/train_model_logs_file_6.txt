@@ -1,0 +1,27 @@
+2024-03-19 20:27:54 : scalar : MinMaxScalar
+2024-03-19 20:27:54 : train test split : 0.25
+2024-03-19 20:27:54 : random state : 15
+2024-03-19 20:27:54 : epochs : 10
+2024-03-19 20:27:54 : learning rate : 0.01
+2024-03-19 20:27:54 : activation function : tanh
+2024-03-19 20:27:54 : loss function : mean_squared_error
+2024-03-19 20:27:54 : Optimizer : AdaGrad
+
+2024-03-19 20:27:54 : The accuracy and error with respect to the epochs
+Epoch : 1 	 Error : 0.481085 	 Accuracy : 0.688623
+Epoch : 2 	 Error : 0.199115 	 Accuracy : 0.724551
+Epoch : 3 	 Error : 0.18319 	 Accuracy : 0.739521
+Epoch : 4 	 Error : 0.172395 	 Accuracy : 0.76497
+Epoch : 5 	 Error : 0.164657 	 Accuracy : 0.769461
+Epoch : 6 	 Error : 0.159074 	 Accuracy : 0.76497
+Epoch : 7 	 Error : 0.155049 	 Accuracy : 0.76497
+Epoch : 8 	 Error : 0.152141 	 Accuracy : 0.766467
+Epoch : 9 	 Error : 0.150025 	 Accuracy : 0.787425
+Epoch : 10 	 Error : 0.148462 	 Accuracy : 0.788922
+
+2024-03-19 20:27:54 : The confusion matrx is :
+Confusion Matrix:
+[['TN: 115' 'FP: 12']
+ ['FN: 30' 'TP: 66']]
+
+2024-03-19 20:27:54 : The test accuracy is 0.8116591928251121
